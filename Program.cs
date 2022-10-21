@@ -62,7 +62,10 @@ namespace QuickShort
 
             pivot = arr[low];
             while (i <= j)
-            { }
+            {
+                j--;
+                cmp_count++;
+            }
         }
     }
 }
