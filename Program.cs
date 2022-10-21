@@ -91,7 +91,9 @@ namespace QuickShort
             Console.WriteLine(" Sorted array elements ");
             Console.WriteLine("-----------------------");
             for (int j = 0; j < n; j++)
-            { }
+            {
+                Console.WriteLine(arr[j]);
+            }
         }
     }
 }
