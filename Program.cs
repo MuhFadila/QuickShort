@@ -74,6 +74,13 @@ namespace QuickShort
                 swap(i, j);
                 mov_count++;
             }
+            if (low < j)
+            {
+                //Move the pivot to its correct position in the list
+                swap(low, j);
+                mov_count++;
+            }
         }
+       
     }
 }
