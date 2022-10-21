@@ -13,5 +13,8 @@ namespace QuickShort
         private int n;
 
         void input()
+        {
+            while (true) { }
+        }
     }
 }
