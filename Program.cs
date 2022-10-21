@@ -36,5 +36,9 @@ namespace QuickShort
                 arr[i] = Int32.Parse(s1);
             }
         }
+        // swaps the element at index y
+
+        void swap(int x, int y)
+        {}
     }
 }
