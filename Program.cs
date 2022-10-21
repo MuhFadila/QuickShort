@@ -18,6 +18,9 @@ namespace QuickShort
             {
                 Console.Write("Enter the number of element in array :");
                 string s = Console.ReadLine();
+                n = Int32.Parse(s);
+                if (n <= 20)
+                    break;
             }
         }
     }
