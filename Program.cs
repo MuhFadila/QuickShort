@@ -69,7 +69,11 @@ namespace QuickShort
             cmp_count++;
 
             if (i < j) //if the greather element is the left of the element
-                { }
+            {
+                //swap the element at index i whit the element at index j
+                swap(i, j);
+                mov_count++;
+            }
         }
     }
 }
