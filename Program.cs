@@ -94,6 +94,8 @@ namespace QuickShort
             {
                 Console.WriteLine(arr[j]);
             }
+            Console.WriteLine("\nNumber of data comparisons: " + cmp_count);
+            Console.WriteLine("\nNumber of data movements:" + mov_count);
         }
     }
 }
