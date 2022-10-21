@@ -66,6 +66,10 @@ namespace QuickShort
                 j--;
                 cmp_count++;
             }
+            cmp_count++;
+
+            if (i < j) //if the greather element is the left of the element
+                { }
         }
     }
 }
