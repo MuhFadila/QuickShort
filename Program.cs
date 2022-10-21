@@ -102,5 +102,9 @@ namespace QuickShort
         {
             return (n);
         }
+        static void Main(string[] args)
+        {
+
+        }
     }
 }
