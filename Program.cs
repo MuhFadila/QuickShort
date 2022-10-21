@@ -14,7 +14,10 @@ namespace QuickShort
 
         void input()
         {
-            while (true) { }
+            while (true)
+            {
+                Console.Write("Enter the number of element in array :");
+            }
         }
     }
 }
