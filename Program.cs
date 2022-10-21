@@ -21,6 +21,8 @@ namespace QuickShort
                 n = Int32.Parse(s);
                 if (n <= 20)
                     break;
+                else
+                    Console.WriteLine("\nArray can have maximum 20 element \n");
             }
         }
     }
