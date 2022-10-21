@@ -29,7 +29,10 @@ namespace QuickShort
             Console.WriteLine("\n==================");
 
             //get array elements
-            for (int i = 0; i < n; i++) ;
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("<" + (i + 1) + ">");
+            }
         }
     }
 }
